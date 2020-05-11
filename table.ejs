@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Table </title>
+</head>
+
+<body>
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+        th{
+            background-color: royalblue;
+        }
+        
+    </style>
+
+    <table style="width: 50%;" align="center">
+        <thead>
+            <% header.forEach(column => {%>
+                <th> <%= column %> </th>
+            <% }) %> 
+        </thead>
+        <tbody>
+            <% rows.forEach(row =>{%>
+                <tr>
+                    <% row.forEach(e=>{ %>
+                        <td> <%= e %> </td>
+                    <% }) %>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</body>
+</html>
+

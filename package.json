@@ -1,0 +1,16 @@
+{
+  "name": "conversor-csv-table",
+  "version": "1.0.0",
+  "description": "Software que transforma um arquivo .csv em uma tabela HTML e também converte para PDF. Projeto simples desenvolvido durante a Formação NodeJS (Instrutor: Victor Lima).",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "html-pdf": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
